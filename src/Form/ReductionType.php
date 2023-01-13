@@ -15,7 +15,7 @@ class ReductionType extends AbstractType
             ->add('nomProduit')
             ->add('prixInitial')
             ->add('pourcentageReduction')
-            ->add('Submit', SubmitType::class);
+            ->add('SUBMIT', SubmitType::class);
     }
 
     public function configureOptions(OptionsResolver $resolver): void
