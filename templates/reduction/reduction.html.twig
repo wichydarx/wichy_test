@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+ 
+
+{% block body %}
+Vous avez bien été enregistré dans la newsletter avec l'email : <br>
+{{ data.nomProduit }} <br>
+{{ data.prixInitial }} <br>
+{{ data.pourcentageReduction }} <br>
+le prix final est de {{data.prixInitial - calc}} €
+
+{% endblock %}
